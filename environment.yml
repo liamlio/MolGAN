@@ -1,0 +1,14 @@
+name: mol_gan_decoder
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - rdkit=2017.09.3=py27_0
+  - pip=19.0.1=py27_0
+  - pip:
+    - torch==0.2.0.post0
+    - pandas
+    - pytorch
+prefix: /opt/conda/envs/mol_gan_decoder
+
