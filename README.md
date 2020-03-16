@@ -12,9 +12,9 @@ Pretrained latent space also used from Mol-CycleGAN, and used pretrained decoder
 !wget http://molcyclegan.ardigen.com/X_JTVAE_250k_rndm_zinc.csv
 ```
 
-# For training, you can directly run the notebook within the repository.
+For training, you can directly run the notebook within the repository.
 
-Then due to environment constraints and requirements of the original VAE-JTNN repository, create the required environment using conda:
+# Then due to environment constraints and requirements of the original VAE-JTNN repository, create the required environment using conda:
 ```
 conda create env -f environment.py
 ```
