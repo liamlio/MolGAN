@@ -18,10 +18,15 @@ Then due to environment constraints and requirements of the original VAE-JTNN re
 ```
 conda create env -f environment.py
 ```
-
+Be sure to git clone the original vae-jtnn repository into the folder:
+```
+git clone https://github.com/wengong-jin/icml18-jtnn.git
+```
 Then just use:
 ```
 python decode.py
 ```
 Check at the bottom of the decode.py file for specifics on fields to set data path and file to decode path
+
+The output will be a data files containing SMILES of the decoded molecules create by the MolGAN model
 
