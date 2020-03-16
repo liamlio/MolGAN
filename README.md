@@ -1,5 +1,5 @@
 # MolGAN
-AI for a cure, a combination of Laten-GAN and VAE-JTNN to create 100% valid drug like molecules
+AI for a cure, a combination of Latent-GAN and VAE-JTNN to create 100% valid drug like molecules
 
 Models, trainer and data_utils modified from original [LatentGan](https://github.com/Dierme/latent-gan)
 
