@@ -13,6 +13,7 @@ Pretrained latent space also used from Mol-CycleGAN, and used pretrained decoder
 ```
 
 For training, you can directly run the notebook within the repository.
+Although you can decode the sampled_epoch200.npy file (it contains 10 samples), I recommend training from scratch due to the lack of time to train the model enough prior to the deadline.
 
 # Then due to environment constraints and requirements of the original VAE-JTNN repository, create the required environment using conda:
 ```
